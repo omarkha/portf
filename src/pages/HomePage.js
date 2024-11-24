@@ -23,11 +23,7 @@ const HomePage = () => {
             </strong>{" "}
             <br /> Let’s connect and build something amazing!
           </p>
-          <img
-            src={generalassembly}
-            alt="General Assembly's bootcamp logo"
-            width="233px"
-          />
+          <img src={generalassembly} alt="General Assembly's bootcamp logo" />
 
           <h3>former General Assembly bootcamp student</h3>
         </div>{" "}
