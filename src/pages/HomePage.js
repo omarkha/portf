@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/homePage.css";
-import pic from "../media/pic.png";
+import pic from "../media/mypic.png";
 import incomestrikers from "../media/incomestrikers.png";
 import theartbridge from "../media/theartbridge.png";
 import iraqiexpert from "../media/iraqiexpert.png";
@@ -14,36 +14,29 @@ const HomePage = () => {
     <div className="home-page">
       <div className="hero">
         <div className="discription">
-          <h3 className="name">Omar S. Khalil</h3>
           <p className="summary">
-            Results-driven and highly motivated computer science student with a
-            strong background in JavaScript, ReactJS, Redux, MongoDB, ExpressJS,
-            NodeJS, CSS, and Python. A graduate of General Assembly’s Full Stack
-            Engineering Bootcamp, demonstrating a commitment to continuous
-            learning and staying up-to-date with industry trends. With a strong
-            foundation in computer science and a desire to push boundaries, I am
-            eager to contribute to the development of intelligent systems and
-            solutions. Committed to lifelong learning, I am dedicated to staying
-            at the forefront of emerging technologies in AI and ML.
+            I’m a highly motivated Computer Science student with expertise in
+            the{" "}
+            <strong>
+              MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), Python, and
+              modern web development tools.
+            </strong>{" "}
+            <br /> Let’s connect and build something amazing!
           </p>
           <img
             src={generalassembly}
             alt="General Assembly's bootcamp logo"
             width="233px"
           />
-          <img
-            src={wgu}
-            alt="Western Governors University logo"
-            width="155px"
-          />
-          <h3>Computer Science student at WGU</h3>
-          <h3>General Assembly's former student</h3>
+
+          <h3>former General Assembly bootcamp student</h3>
         </div>{" "}
-        <div className="image" style={{ backgroundImage: `url(${pic})` }} />
+        <div className="person">
+          <img className="image" src={pic} />
+          <h3 className="name">Omar S. Khalil</h3>
+        </div>
       </div>
       <div className="portfolio">
-        {" "}
-        <h1>Portfolio</h1>
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
             <img src={incomestrikers} width="377px" />
