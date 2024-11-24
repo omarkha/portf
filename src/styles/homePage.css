@@ -87,6 +87,10 @@
   width: 23.6vw;
   padding: 3.44vh 2.12vw;
   transition: 0.48s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio .piece:hover {
@@ -105,12 +109,18 @@
 .piece .links {
   display: flex;
   flex-direction: row;
-  gap: 89px;
+  gap: 3.44vw;
 }
 
 .piece img {
+  justify-self: center;
+  width: 100%;
   border-radius: 2.12vh;
   border: 0.3vh solid #fff;
+}
+
+.piece a {
+  justify-self: center;
 }
 
 .piece .links a {

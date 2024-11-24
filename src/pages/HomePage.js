@@ -39,7 +39,7 @@ const HomePage = () => {
       <div className="portfolio">
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
-            <img src={incomestrikers} width="377px" />
+            <img src={incomestrikers} />
           </a>
           <div className="content">
             <a href="https://incomestrikers.onrender.com/" target="_blank">
@@ -62,7 +62,7 @@ const HomePage = () => {
         </div>
         <div className="piece">
           <a href="https://artbridgetobaghdad.onrender.com/" target="_blank">
-            <img src={theartbridge} width="377px" />
+            <img src={theartbridge} />
           </a>
           <div className="content">
             <a href="https://artbridgetobaghdad.onrender.com/" target="_blank">
@@ -84,7 +84,7 @@ const HomePage = () => {
         </div>
         <div className="piece">
           <a href="https://iraqiexpert.onrender.com/" target="_blank">
-            <img src={iraqiexpert} width="377px" />
+            <img src={iraqiexpert} />
           </a>
           <div className="content">
             <a href="https://iraqiexpert.onrender.com/" target="_blank">
@@ -104,7 +104,7 @@ const HomePage = () => {
         </div>
         <div className="piece">
           <a href="https://soccerleagues.onrender.com/" target="_blank">
-            <img src={greenstar} width="377px" />
+            <img src={greenstar} />
           </a>
           <div className="content">
             <a href="https://soccerleagues.onrender.com/" target="_blank">
@@ -123,7 +123,7 @@ const HomePage = () => {
         </div>
         <div className="piece">
           <a href="https://bubblefield.netlify.app/" target="_blank">
-            <img src={bubblefield} width="377px" />
+            <img src={bubblefield} />
           </a>
           <div className="content">
             <a href="https://bubblefield.netlify.app/" target="_blank">
