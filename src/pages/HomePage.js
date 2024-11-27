@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/homePage.css";
-import pic from "../media/mypic.png";
+import pic from "../media/mypic3.png";
 import incomestrikers from "../media/incomestrikers.png";
 import theartbridge from "../media/theartbridge.png";
 import iraqiexpert from "../media/iraqiexpert.png";
@@ -8,31 +8,33 @@ import greenstar from "../media/greenstar.png";
 import bubblefield from "../media/bubblefield.png";
 import generalassembly from "../media/generalassembly.jpeg";
 import wgu from "../media/wgu.jpeg";
+import pattern from "../media/pattern.png";
 
 const HomePage = () => {
   return (
-    <div className="home-page">
+    <div className="home-page" style={{ backgroundImage: `url(${pattern})` }}>
       <div className="hero">
         <div className="discription">
+          <h3>ABOUT ME </h3>
           <p className="summary">
-            I’m a highly motivated Computer Science student with expertise in
-            the{" "}
+            I’m a highly motivated Full-Stack & Front-End Software Developer
+            with expertise in the{" "}
             <strong>
-              MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), Python, and
-              modern web development tools.
+              MERN stack, Python, and modern web development tools.
             </strong>{" "}
-            <br /> Let’s connect and build something amazing!
+            <br /> <br />
+            Let’s connect and build something amazing!
           </p>
-          <img src={generalassembly} alt="General Assembly's bootcamp logo" />
 
-          <h3>former General Assembly bootcamp student</h3>
+          <h3>Former General Assembly bootcamp student</h3>
+          <img src={generalassembly} alt="General Assembly's bootcamp logo" />
         </div>{" "}
         <div className="person">
           <img className="image" src={pic} />
           <h3 className="name">Omar S. Khalil</h3>
         </div>
       </div>
-      <div className="portfolio">
+      <div className="portfolio" style={{ backgroundImage: `url(${pattern})` }}>
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
             <img src={incomestrikers} />

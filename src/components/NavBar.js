@@ -3,7 +3,7 @@ import "../styles/components.css";
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <h3>Full Stack Software Engineer - Specialized in the MERN stack</h3>
+      <h3>Software Developer - Specialized in the MERN stack</h3>
     </nav>
   );
 };
