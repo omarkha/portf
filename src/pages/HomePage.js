@@ -34,6 +34,47 @@ const HomePage = () => {
           <h3 className="name">Omar S. Khalil</h3>
         </div>
       </div>
+      <div className="skills" style={{ backgroundImage: `url(${pattern})` }}>
+        <div className="tech">
+          <h3>Tech Stack </h3>
+          <u>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>ReactJS</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>MongoDB</li>
+            <li>Redux</li>
+            <li>Firebase</li>
+            <li>Python</li>
+          </u>
+        </div>
+        <div className="relevant">
+          <h3>Relevant Skills </h3>
+          <u>
+            <li>Marketing</li>
+            <li>Copywriting</li>
+            <li>Entrepreneurship</li>
+            <li>Graphic Design</li>
+            <li>Research Skills</li>
+            <li>Mathematics</li>
+            <li>Geometry</li>
+          </u>
+        </div>
+        <div className="characteristics">
+          <h3>Characteristics </h3>
+          <u>
+            <li>Clear Communicator</li>
+            <li>Sense of Responsibility</li>
+            <li>Professionalism</li>
+            <li>Interpersonal Skills</li>
+            <li>Fast Pace Working Style</li>
+            <li>Dedication</li>
+            <li>Meticulousness</li>
+          </u>
+        </div>
+      </div>
       <div className="portfolio" style={{ backgroundImage: `url(${pattern})` }}>
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
