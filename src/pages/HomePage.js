@@ -7,18 +7,20 @@ import iraqiexpert from "../media/iraqiexpert.png";
 import greenstar from "../media/greenstar.png";
 import bubblefield from "../media/bubblefield.png";
 import generalassembly from "../media/generalassembly.jpeg";
-import wgu from "../media/wgu.jpeg";
-import pattern from "../media/pattern.png";
-
+import coding from "../media/coding.png";
+import avatar from "../media/avatar.png";
+import bg from "../media/pattern2.png";
+import insta from "../media/insta.png";
+import linkedin from "../media/linkedin.png";
 const HomePage = () => {
   return (
-    <div className="home-page" style={{ backgroundImage: `url(${pattern})` }}>
+    <div className="home-page">
       <div className="hero">
         <div className="discription">
           <h3>ABOUT ME </h3>
           <p className="summary">
-            I’m a highly motivated Full-Stack & Front-End Software Developer
-            with expertise in the{" "}
+            I’m a highly motivated Full-Stack Software Developer with expertise
+            in{" "}
             <strong>
               MERN stack, Python, and modern web development tools.
             </strong>{" "}
@@ -30,12 +32,14 @@ const HomePage = () => {
           <img src={generalassembly} alt="General Assembly's bootcamp logo" />
         </div>{" "}
         <div className="person">
-          <img className="image" src={pic} />
           <h3 className="name">Omar S. Khalil</h3>
+          <img className="image" src={pic} />
         </div>
       </div>
-      <div className="skills" style={{ backgroundImage: `url(${pattern})` }}>
+      <h3 className="heading">Skills and Capabilities</h3>
+      <div className="skills">
         <div className="tech">
+          <img src={coding} />
           <h3>Tech Stack </h3>
           <u>
             <li>HTML</li>
@@ -49,20 +53,9 @@ const HomePage = () => {
             <li>Firebase</li>
             <li>Python</li>
           </u>
-        </div>
-        <div className="relevant">
-          <h3>Relevant Skills </h3>
-          <u>
-            <li>Marketing</li>
-            <li>Copywriting</li>
-            <li>Entrepreneurship</li>
-            <li>Graphic Design</li>
-            <li>Research Skills</li>
-            <li>Mathematics</li>
-            <li>Geometry</li>
-          </u>
-        </div>
+        </div>{" "}
         <div className="characteristics">
+          <img src={avatar} />
           <h3>Characteristics </h3>
           <u>
             <li>Clear Communicator</li>
@@ -75,7 +68,8 @@ const HomePage = () => {
           </u>
         </div>
       </div>
-      <div className="portfolio" style={{ backgroundImage: `url(${pattern})` }}>
+      <h3 className="heading">Projects</h3>
+      <div className="portfolio">
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
             <img src={incomestrikers} />
@@ -180,6 +174,18 @@ const HomePage = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="cta">
+        <h3>
+          Looking for a professional Full-Stack Developer? <br />
+        </h3>
+        <a
+          className="button"
+          href="https://www.linkedin.com/in/omar-khalil-34v/"
+          target="_blank"
+        >
+          Let's Collaborate
+        </a>
       </div>
     </div>
   );
