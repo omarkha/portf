@@ -19,13 +19,10 @@ const HomePage = () => {
         <div className="discription">
           <h3>ABOUT ME </h3>
           <p className="summary">
-            I’m a highly motivated Full-Stack Software Developer with expertise
-            in{" "}
-            <strong>
-              MERN stack, Python, and modern web development tools.
-            </strong>{" "}
-            <br /> <br />
-            Let’s connect and build something amazing!
+            Detail-oriented and workaholic Fullstack Software Developer with
+            much practice in <strong>MERN stack and Python.</strong> <br />
+            <br /> Check my skills!
+            <br />
           </p>
 
           <h3>Former General Assembly bootcamp student</h3>
