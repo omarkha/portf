@@ -9,6 +9,12 @@ body {
   background: rgb(0,0,59);
   overflow-x:scroll;
   width: 100vw;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 code {
