@@ -7,14 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   background: rgb(0,0,59);
-  overflow-x: hidden;
+  overflow-x:scroll;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-* {
-  box-sizing: border-box; /* Prevent overflow due to padding and borders */
 }
