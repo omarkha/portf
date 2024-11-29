@@ -1,5 +1,5 @@
 .home-page {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   gap: 14.42vh;
@@ -327,7 +327,7 @@ a {
 
 @media (max-width: 850px) {
   .home-page {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 14.5vh;
