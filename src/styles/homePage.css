@@ -79,6 +79,7 @@ background: linear-gradient(#00000000,  rgb(0,148,158));;
 }
 .hero .discription {
   padding:  5.57vh 3.44vw;
+  box-sizing: border-box;
   height: 61.8vh;
   margin-top: 9.01vh;
   background: rgb(0,0,43);
@@ -114,6 +115,7 @@ background: linear-gradient(#00000000,  rgb(0,148,158));;
 
 
 .portfolio {
+  width: 100vw;
   padding: 14.5vh 14.5vw;
   box-sizing: border-box;
   height: fit-content;
