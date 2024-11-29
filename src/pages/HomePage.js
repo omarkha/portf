@@ -25,7 +25,7 @@ const HomePage = () => {
             <br />
           </p>
 
-          <h3>Former General Assembly bootcamp student</h3>
+          <h3>Former student </h3>
           <img src={generalassembly} alt="General Assembly's bootcamp logo" />
         </div>{" "}
         <div className="person">
