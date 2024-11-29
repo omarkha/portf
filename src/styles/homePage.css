@@ -115,8 +115,8 @@ background: linear-gradient(#00000000,  rgb(0,148,158));;
 
 
 .portfolio {
-  width: 100vw;
-  padding: 14.5vh 14.5vw;
+  width: 86vw;
+  padding: 14.5vh 5.57vw;
   box-sizing: border-box;
   height: fit-content;
   background: linear-gradient( #00000000, rgb(0,0,193));
@@ -124,6 +124,7 @@ background: linear-gradient(#00000000,  rgb(0,148,158));;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5.57vw;
   border-radius: 0 0 14.5vw 14.5vw;
+  justify-items: center;
 }
 
 .skills {
@@ -513,7 +514,7 @@ gap: 5.57vh;
 
 .portfolio {
   width: 86vw;
-  padding: 14.5vh 0vw;
+  padding: 14.5vh 5.57vw;
   box-sizing: border-box;
   height: fit-content;
   background: linear-gradient( #00000000, rgb(0,0,193));
@@ -522,7 +523,6 @@ gap: 5.57vh;
   border-radius: 0 0 14.5vw 14.5vw;
   gap: 14.5vh;
   align-items: center;
-  
 }
 
 
