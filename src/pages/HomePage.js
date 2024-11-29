@@ -20,7 +20,7 @@ const HomePage = () => {
           <h3>ABOUT ME </h3>
           <p className="summary">
             Detail-oriented and workaholic Fullstack Software Developer with
-            much practice in <strong>MERN stack and Python.</strong> <br />
+            much practice in <strong>The MERN stack and Python.</strong> <br />
             <br /> Check my skills!
             <br />
           </p>
