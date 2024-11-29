@@ -369,15 +369,15 @@ a {
   width: 100%;
   letter-spacing: 0;
   word-spacing: 0;
-  line-height: 3.44vh;
+  line-height: 2.12vh;
   animation: max 0.48 ease-in-out;
   
 }
 /*  #d4f0fc  #89d6fb  #02a9f7  #02577a  #01303f    */
 
 .hero .image {
-
   height: 38.2vh;
+  
   image-rendering: optimizeQuality;
   padding-top: 0vh;
   border-radius: 0 0 9.01vw 9.01vw;
@@ -401,10 +401,11 @@ background: linear-gradient(#00000000,  rgb(0,148,158));;
   color: 	 rgb(0, 35, 46);
   background-color: rgb(145,135,0);
 }
+
 .hero .discription {
   padding:  2.12vh 5.57vw;
   box-sizing: border-box;
-  height: 53vh;
+  height: fit-content;
   width: 86vw;
   margin-top: 1.19vh;
   background: rgb(0,0,43);
@@ -462,6 +463,9 @@ gap: 5.57vh;
   color:#fff;
   padding: 3.44vh 3.44vw;
   width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
   
 }
 
