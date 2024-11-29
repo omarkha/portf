@@ -510,7 +510,8 @@ gap: 5.57vh;
 
 
 .portfolio {
-  padding: 14.5vh 14.5vw;
+  width: 86vw;
+  padding: 14.5vh 0vw;
   box-sizing: border-box;
   height: fit-content;
   background: linear-gradient( #00000000, rgb(0,0,193));
@@ -531,7 +532,7 @@ gap: 5.57vh;
   border-radius: 1.19vh;
   width: fit-content;
   box-sizing: border-box;
-  width: 86%;
+  width: 72.73%;
   padding: 2.12vh 5.57vw;
   transition: 0.48s ease-in-out;
   display: flex;
@@ -550,7 +551,7 @@ gap: 5.57vh;
   border-radius: 1.19vh;
   width: fit-content;
   box-sizing: border-box;
-  width: 86%;
+  width: 72.73%;
   padding: 2.12vh 5.57vw;
   transition: 0.48s ease-in-out;
  
