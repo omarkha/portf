@@ -8,6 +8,7 @@ body {
   padding: 0;
   background: rgb(0,0,59);
   overflow-x:scroll;
+  width: 100vw;
 }
 
 code {
