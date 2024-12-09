@@ -15,23 +15,19 @@ import linkedin from "../media/linkedin.png";
 const HomePage = () => {
   return (
     <div className="home-page">
+      <div className="background_image" />
       <div className="hero">
         <div className="discription">
           <h3>ABOUT ME </h3>
+          <h3 className="name">Omar S. Khalil</h3>
           <p className="summary">
-            Detail-oriented and workaholic Fullstack Software Developer with
-            much practice in <strong>The MERN stack and Python.</strong> <br />
-            <br /> Check my skills!
+            Empowering Entrepreneurs with Cutting-Edge Software Solutions
             <br />
           </p>
-
-          <h3>Former student </h3>
           <img src={generalassembly} alt="General Assembly's bootcamp logo" />
+          <h4>Former student </h4>
         </div>{" "}
-        <div className="person">
-          <h3 className="name">Omar S. Khalil</h3>
-          <img className="image" src={pic} />
-        </div>
+        <img className="image" src={pic} />
       </div>
       <h3 className="heading">Skills and Capabilities</h3>
       <div className="skills">
