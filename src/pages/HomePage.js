@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/homePage.css";
-import pic from "../media/mypic3.png";
+import pic from "../media/profilepic.png";
 import incomestrikers from "../media/incomestrikers.png";
 import theartbridge from "../media/theartbridge.png";
 import iraqiexpert from "../media/iraqiexpert.png";

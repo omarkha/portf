@@ -3,8 +3,8 @@
   width: 100vw;
   padding: 1px 9.01vw;
   box-sizing: border-box;
-  background-color: #000;
-  color: #fff;  
+  background-color: rgb(251, 214, 137);
+  color: #000;  
 
   display: flex;
   flex-direction: row;
@@ -16,9 +16,8 @@
 .navbar h3 {
   font-weight: 800;
   font-size: 2.92vh;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .navbar ul {
   list-style: none;
   display: flex;
