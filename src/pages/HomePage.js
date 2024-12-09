@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <div className="background_image" />
-      <div className="hero">
+      <section className="hero">
         <div className="discription">
           <h3>ABOUT ME </h3>
           <h3 className="name">Omar S. Khalil</h3>
@@ -28,9 +28,9 @@ const HomePage = () => {
           <h4>Former student </h4>
         </div>{" "}
         <img className="image" src={pic} />
-      </div>
+      </section>
       <h3 className="heading">Skills and Capabilities</h3>
-      <div className="skills">
+      <section className="skills">
         <div className="tech">
           <img src={coding} />
           <h3>Tech Stack </h3>
@@ -60,9 +60,9 @@ const HomePage = () => {
             <li>Meticulousness</li>
           </u>
         </div>
-      </div>
+      </section>
       <h3 className="heading">Projects</h3>
-      <div className="portfolio">
+      <section className="portfolio">
         <div className="piece">
           <a href="https://incomestrikers.onrender.com/" target="_blank">
             <img src={incomestrikers} />
@@ -167,19 +167,22 @@ const HomePage = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="cta">
+      </section>
+      <h3 className="heading">
+        Let's Turn Your Ideas into Impactful AI-Driven Products
+      </h3>
+      <section className="cta">
         <h3>
-          Looking for a professional Full-Stack Developer? <br />
+          Are You Ready to Talk? <br />
         </h3>
         <a
           className="button"
           href="https://www.linkedin.com/in/omar-khalil-34v/"
           target="_blank"
         >
-          Let's Collaborate
+          Let’s Build Something Exceptional
         </a>
-      </div>
+      </section>
     </div>
   );
 };
