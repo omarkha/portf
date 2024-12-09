@@ -136,29 +136,32 @@ margin: 0;
 
 
 .portfolio {
-  width: 76vw;
-  padding: 15vh 3vw;
+  padding: 12vh 20vw;
   box-sizing: border-box;
-  height: fit-content;
-  background: linear-gradient( #00000000, #59114D);
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(69deg, rgb(19, 15, 26), #012622);
+  box-shadow: inset 0 0 216px 26px #003B36;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5.57vw;
-  border-radius: 0 0 4vw 4vw;
+
   justify-items: center;
 }
 
 .skills {
   padding: 0 5.2vw;
+  width: 100vw;
+  height: 100vh;
 
   box-sizing: border-box;
-  height: fit-content;
-  
+  background: linear-gradient(69deg, #ECE5F0, #E98A15);
+  box-shadow: inset 0 0 216px 26px #E98A15;
   color: #ECE5F0;
   display: flex;
   flex-direction: row;
 justify-content: center;
-align-items: flex-start;
+align-items: center;
 }
 
 .skills div img {
@@ -218,18 +221,19 @@ margin-top:3vh;
 .portfolio .piece {
   transform: skewX(-5.8deg);
   color: #ECE5F0;
-  box-shadow: 1.19vh 1.19vh 1.19vh 0.5vh  #012622;
-  background-color:  #59114D;
-  border-radius: 1.19vh;
-  padding: 3vw;
-  max-width: fit-content;
+  box-shadow: inset 1vh 1vh 1.8vh 0.1vh  #012622;
+  background-color: #003B36;
+  border-radius: 1vh;
+  padding: 3vh 1vw;
+  width: 15vw;
+  height: 34vh;
   box-sizing: border-box;
   transition: 0.48s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: space-between;
   justify-content: space-between;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 
 
@@ -249,7 +253,7 @@ margin-top:3vh;
   flex-direction: row;
   gap: 3vw;
   justify-content: space-evenly;
-  
+  width: 53%;
 }
 
 .piece img {
@@ -260,12 +264,12 @@ margin-top:3vh;
 }
 
 .piece a {
- font-size: 1.19vw;
+ font-size: 0.8vw;
   justify-self: center;
 }
 
 .piece .links a {
-  font-size: 1.19vw;
+  font-size: 1vw;
   text-decoration: none;
   color: #fff;
   font-weight: 800;
@@ -280,13 +284,15 @@ a {
 }
 
 .cta {
+  width: 58vw;
   padding: 9.01vh 5.57vw 9.01vh 5.57vw;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.12vh;
-  background: linear-gradient( #00000000,  #59114D,#00000000);
+  background: #E98A15;
+  box-shadow: inset 0 0 58px 1px rgb(0,0,0,0.7);
   margin-bottom: 14.5vh;
   border-radius: 5.57vw;
 }
@@ -551,8 +557,8 @@ gap: 5.57vh;
   border-radius: 1.19vh;
   width: fit-content;
   box-sizing: border-box;
-  width: 72.73%;
-  padding: 2.12vh 5.57vw;
+  width: 15%;
+  padding: 1vh 2vw;
   transition: 0.48s ease-in-out;
   display: flex;
   flex-direction: column;
